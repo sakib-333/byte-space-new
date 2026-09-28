@@ -6,6 +6,7 @@ import HeroImage5 from "../assets/hero_image_5.png"
 import HeroImage6 from "../assets/hero_image_6.png"
 import HeroImage7 from "../assets/hero_image_7.png"
 import HeroImage8 from "../assets/hero_image_8.png"
+import HeroImage9 from "../assets/hero_image_9.png"
 
 function HeroSection() {
     return (
@@ -130,19 +131,7 @@ function HeroSection() {
                 </div>
 
                 <div className="mt-3 flex items-center">
-                    {["A", "B", "C", "D", "E", "F"].map((name, index) => (
-                        <div
-                            key={name}
-                            className="-mr-2 flex size-9 items-center justify-center rounded-full border-2 border-white bg-[#E7E7E7] text-[11px] font-medium text-[#333]"
-                            style={{ zIndex: 10 - index }}
-                        >
-                            {name}
-                        </div>
-                    ))}
-
-                    <div className="ml-1 flex size-10 items-center justify-center rounded-full bg-[#D7FF00] text-[11px] font-semibold text-black">
-                        2K+
-                    </div>
+                   <img src={HeroImage9} alt="HeroImage9" />
                 </div>
             </div>
 
