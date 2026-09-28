@@ -65,27 +65,27 @@ function HeroSection() {
 
             {/* Left top lime graphic */}
             <div className="absolute left-0 top-[28%] h-[270px] w-[200px]">
-                <img src={HeroImage3} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage3} alt="HeroImage3" className="h-full w-full object-contain" />
             </div>
 
             {/* Left small white graphic */}
             <div className="absolute left-[15%] top-[49%] h-[125px] w-[120px]">
-                <img src={HeroImage5} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage5} alt="HeroImage5" className="h-full w-full object-contain" />
             </div>
 
             {/* Left bottom white circle */}
             <div className="absolute bottom-[6%] left-[4.5%] h-[220px] w-[240px]">
-                <img src={HeroImage7} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage7} alt="HeroImage7" className="h-full w-full object-contain" />
             </div>
 
             {/* Main green shape */}
             <div className="absolute bottom-[-18%] left-1/2 h-[62%] w-[78%] -translate-x-1/2">
-                <img src={HeroImage2} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage2} alt="HeroImage2" className="h-full w-full object-contain" />
             </div>
 
             {/* Main person */}
             <div className="absolute bottom-0 left-1/2 z-10 h-[48%] w-[38%] -translate-x-1/2">
-                <img src={HeroImage1} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage1} alt="HeroImage1" className="h-full w-full object-contain" />
             </div>
 
             {/* UI/UX card */}
@@ -148,17 +148,17 @@ function HeroSection() {
 
             {/* Right top lime graphic */}
             <div className="absolute right-[-2%] top-[24%] h-[310px] w-[210px]">
-                <img src={HeroImage4} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage4} alt="HeroImage4" className="h-full w-full object-contain" />
             </div>
 
             {/* Right middle triangle */}
             <div className="absolute right-[12%] top-[47%] h-[145px] w-[145px]">
-                <img src={HeroImage6} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage6} alt="HeroImage6" className="h-full w-full object-contain" />
             </div>
 
             {/* Right bottom white graphic */}
             <div className="absolute right-[3%] bottom-[6%] h-[250px] w-[190px]">
-                <img src={HeroImage8} alt="" className="h-full w-full object-contain" />
+                <img src={HeroImage8} alt="HeroImage8" className="h-full w-full object-contain" />
             </div>
         </section>
     )

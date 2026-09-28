@@ -4,7 +4,7 @@ import Header from "./Header"
 const AppLayout = () => {
   return (
     <div>
-        {/* <Header /> */}
+        <Header />
 
         <main className="w-full min-h-screen">
             <Outlet />
