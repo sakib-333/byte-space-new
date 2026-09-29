@@ -6,6 +6,7 @@ import NotFoundPage from "@/modules/not-found/NotFoundPage";
 import CourseDetailsPage from "@/modules/course-details/pages/CourseDetailsPage";
 import CreatorsPage from "@/modules/creators/pages/CreatorsPage";
 import CreatorDetailsPage from "@/modules/creator-details/pages/CreatorDetailsPage";
+import AuthLayout from "@/shared/components/layout/AuthLayout";
 
 export const router = createBrowserRouter([
     {
@@ -45,7 +46,7 @@ export const router = createBrowserRouter([
     },
 
     {
-        element: <h1>Auth Layout</h1>,
+        element: <AuthLayout />,
 
         children: [
             {

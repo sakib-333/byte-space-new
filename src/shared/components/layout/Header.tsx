@@ -64,7 +64,7 @@ const Header = () => {
                         Search
                     </Link>
                     <Link
-                        to="/sign-in"
+                        to="/login"
                         className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Sign In
