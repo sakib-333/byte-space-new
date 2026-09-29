@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import ShoppingBagIcon from "@/assets/icons/shopping_bag.svg?react"
-import SiteLogo from "@/assets/icons/logo.svg?react"
+import HeaderLogo from "/header_logo.png"
+import { Link } from "react-router-dom"
 
 const Header = () => {
     const headerRef = useRef<HTMLElement>(null)
@@ -26,53 +27,55 @@ const Header = () => {
             <div className="mx-auto flex h-full max-w-360 items-center justify-between px-6">
 
                 {/* Logo */}
-                <a href="/" className="flex items-center gap-2.5">
-                    <SiteLogo className="size-6 text-neutral-100" />
-
-                    <span className="font-['Clash_Display'] text-2xl font-bold text-neutral-100">
-                        ByteSpace
-                    </span>
-                </a>
+                <Link to="/" className="flex items-center gap-2.5">
+                    <img src={HeaderLogo} alt="ByteSpace Logo" />
+                </Link>
 
                 {/* Navigation */}
                 <nav className="absolute left-1/2 flex -translate-x-1/2 items-center gap-6">
-                    <a
-                        href="/"
+                    <Link
+                        to="/"
                         className="font-['Satoshi'] text-base font-medium text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Home
-                    </a>
+                    </Link>
 
-                    <a
-                        href="/courses"
+                    <Link
+                        to="/courses"
                         className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Courses
-                    </a>
+                    </Link>
 
-                    <a
-                        href="/creators"
+                    <Link
+                        to="/creators"
                         className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Creators
-                    </a>
+                    </Link>
                 </nav>
 
                 {/* Actions */}
                 <div className="flex items-center gap-6">
-                    <a
-                        href="/sign-in"
+                    <Link
+                        to="/search"
+                        className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
+                    >
+                        Search
+                    </Link>
+                    <Link
+                        to="/sign-in"
                         className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Sign In
-                    </a>
+                    </Link>
 
-                    <a
-                        href="/join"
+                    <Link
+                        to="/join"
                         className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Join Us
-                    </a>
+                    </Link>
 
                     <button
                         type="button"
