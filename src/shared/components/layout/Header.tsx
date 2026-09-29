@@ -21,7 +21,7 @@ const Header = () => {
     return (
         <header
             ref={headerRef}
-            className={`fixed inset-x-0 top-0 z-50 h-28 transition-colors duration-300 ${scrolled && "backdrop-blur-md"} `}
+            className={`fixed inset-x-0 top-0 z-50 h-28 transition-colors duration-300 ${scrolled && "bg-black"} `}
         >
             <div className="mx-auto flex h-full max-w-360 items-center justify-between px-6">
 

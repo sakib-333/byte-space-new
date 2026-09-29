@@ -1,4 +1,5 @@
 import CategorySection from "../components/CategorySection"
+import CreatorCtaSection from "../components/CreatorCtaSection"
 import GrowthSection from "../components/GrowthSection"
 import HeroSection from "../components/HeroSection"
 import LearningPathSection from "../components/LearningPathSection"
@@ -12,6 +13,7 @@ const HomePage = () => {
       <CategorySection />
       <LearningPathSection />
       <GrowthSection />
+      <CreatorCtaSection />
     </div>
   )
 }
