@@ -7,6 +7,7 @@ import CourseDetailsPage from "@/modules/course-details/pages/CourseDetailsPage"
 import CreatorsPage from "@/modules/creators/pages/CreatorsPage";
 import CreatorDetailsPage from "@/modules/creator-details/pages/CreatorDetailsPage";
 import AuthLayout from "@/shared/components/layout/AuthLayout";
+import RegisterPage from "@/modules/auth/pages/RegisterPage";
 
 export const router = createBrowserRouter([
     {
@@ -56,7 +57,7 @@ export const router = createBrowserRouter([
 
             {
                 path: "/register",
-                element: <h1>RegisterPage</h1>,
+                element: <RegisterPage />,
             },
         ],
     },

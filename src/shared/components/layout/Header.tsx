@@ -71,7 +71,7 @@ const Header = () => {
                     </Link>
 
                     <Link
-                        to="/join"
+                        to="/register"
                         className="font-['Satoshi'] text-base text-neutral-100 transition-opacity hover:opacity-70"
                     >
                         Join Us
