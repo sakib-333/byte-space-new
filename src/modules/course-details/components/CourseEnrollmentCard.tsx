@@ -5,6 +5,7 @@ import {
     Video,
 } from "lucide-react"
 import PerlStudioAvatar from "../assets/perl_studio_avater.png"
+import { Link } from "react-router-dom"
 
 const CourseEnrollmentCard = () => {
     return (
@@ -164,12 +165,15 @@ const CourseEnrollmentCard = () => {
                 Future!
             </p>
 
-            <button
-                type="button"
-                className="mt-6 rounded-full border border-[#CDD0D5] px-5 py-2.5 text-[14px] text-[#484B52] transition-colors hover:bg-[#F5F5F6]"
-            >
-                See Full Profile
-            </button>
+            <Link to="/creators/1">
+            
+                <button
+                    type="button"
+                    className="mt-6 rounded-full border border-[#CDD0D5] px-5 py-2.5 text-[14px] text-[#484B52] transition-colors hover:bg-[#F5F5F6]"
+                >
+                    See Full Profile
+                </button>
+            </Link>
         </div>
     )
 }

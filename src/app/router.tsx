@@ -5,6 +5,7 @@ import CoursesPage from "@/modules/courses/pages/CoursesPage";
 import NotFoundPage from "@/modules/not-found/NotFoundPage";
 import CourseDetailsPage from "@/modules/course-details/pages/CourseDetailsPage";
 import CreatorsPage from "@/modules/creators/pages/CreatorsPage";
+import CreatorDetailsPage from "@/modules/creator-details/pages/CreatorDetailsPage";
 
 export const router = createBrowserRouter([
     {
@@ -29,6 +30,11 @@ export const router = createBrowserRouter([
             {
                 path: "/creators",
                 element: <CreatorsPage />
+            },
+
+            {
+                path: "/creators/:creatorId",
+                element: <CreatorDetailsPage />
             },
 
             {
