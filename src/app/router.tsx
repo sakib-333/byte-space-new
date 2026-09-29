@@ -8,6 +8,7 @@ import CreatorsPage from "@/modules/creators/pages/CreatorsPage";
 import CreatorDetailsPage from "@/modules/creator-details/pages/CreatorDetailsPage";
 import AuthLayout from "@/shared/components/layout/AuthLayout";
 import RegisterPage from "@/modules/auth/pages/RegisterPage";
+import LoginPage from "@/modules/auth/pages/LoginPage";
 
 export const router = createBrowserRouter([
     {
@@ -52,7 +53,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: "/login",
-                element: <h1>LoginPage</h1>,
+                element: <LoginPage />,
             },
 
             {

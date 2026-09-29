@@ -5,16 +5,17 @@ import Shape3 from "../assets/3.png"
 import Shape4 from "../assets/4.png"
 import Shape5 from "../assets/5.png"
 import Shape6 from "../assets/6.png"
+import { Link } from "react-router-dom"
 
 const AuthShowcase = () => {
     return (
         <div className="relative h-full overflow-hidden">
             {/* Brand icon */}
-            <div className="absolute left-0 top-0">
+            <Link to="/" className="absolute left-0 top-0">
                 <div className="flex size-8 items-center justify-center">
                     <img src={SiteLogo} alt="ByteSpace Logo" className="h-5 w-5" />
                 </div>
-            </div>
+            </Link>
 
             {/* Content */}
             <div className="absolute left-0 top-24 max-w-[490px]">
