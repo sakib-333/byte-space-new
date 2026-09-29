@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import ShoppingBagIcon from "@/assets/icons/shopping_bag.svg?react"
-import SiteLogo from "@/assets/icons/logo.svg?react"
+import HeaderLogo from "/header_logo.png"
 
 const Header = () => {
     const headerRef = useRef<HTMLElement>(null)
@@ -27,11 +27,7 @@ const Header = () => {
 
                 {/* Logo */}
                 <a href="/" className="flex items-center gap-2.5">
-                    <SiteLogo className="size-6 text-neutral-100" />
-
-                    <span className="font-['Clash_Display'] text-2xl font-bold text-neutral-100">
-                        ByteSpace
-                    </span>
+                    <img src={HeaderLogo} alt="ByteSpace Logo" />
                 </a>
 
                 {/* Navigation */}
