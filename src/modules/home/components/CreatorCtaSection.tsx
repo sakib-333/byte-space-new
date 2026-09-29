@@ -1,10 +1,10 @@
 import HeroImage3 from "../assets/hero_image_3.png"
 import HeroImage5 from "../assets/hero_image_5.png"
 import HeroImage6 from "../assets/hero_image_6.png"
-import HeroImage7 from "../assets/hero_image_7.png"
 import HeroImage10 from "../assets/hero_image_10.png"
 import HeroImage11 from "../assets/hero_image_11.png"
 import HeroImage12 from "../assets/hero_image_12.png"
+import HeroImage13 from "../assets/hero_image_13.png"
 
 const CreatorCtaSection = () => {
     return (
@@ -38,8 +38,8 @@ const CreatorCtaSection = () => {
             />
 
             <img
-                src={HeroImage7}
-                alt="HeroImage7"
+                src={HeroImage13}
+                alt="HeroImage13"
                 className="pointer-events-none absolute -bottom-24 left-[4%] hidden h-[260px] w-[260px] object-contain lg:block"
             />
 
