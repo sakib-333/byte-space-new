@@ -4,6 +4,7 @@ import AppLayout from "@/shared/components/layout/AppLayout";
 import CoursesPage from "@/modules/courses/pages/CoursesPage";
 import NotFoundPage from "@/modules/not-found/NotFoundPage";
 import CourseDetailsPage from "@/modules/course-details/pages/CourseDetailsPage";
+import CreatorsPage from "@/modules/creators/pages/CreatorsPage";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,11 @@ export const router = createBrowserRouter([
             {
                 path: "/courses/:courseId",
                 element: <CourseDetailsPage />
+            },
+
+            {
+                path: "/creators",
+                element: <CreatorsPage />
             },
 
             {
