@@ -1,6 +1,10 @@
+import CreatorDetailsHero from "../components/CreatorDetailsHero"
+
 const CreatorDetailsPage = () => {
   return (
-    <div>CreatorDetailsPage</div>
+    <div>
+        <CreatorDetailsHero />
+    </div>
   )
 }
 
