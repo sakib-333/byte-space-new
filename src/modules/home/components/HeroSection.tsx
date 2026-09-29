@@ -1,12 +1,12 @@
-import HeroImage1 from "../assets/hero_image_1.png"
-import HeroImage2 from "../assets/hero_image_2.png"
-import HeroImage3 from "../assets/hero_image_3.png"
-import HeroImage4 from "../assets/hero_image_4.png"
-import HeroImage5 from "../assets/hero_image_5.png"
-import HeroImage6 from "../assets/hero_image_6.png"
-import HeroImage7 from "../assets/hero_image_7.png"
-import HeroImage8 from "../assets/hero_image_8.png"
-import HeroImage9 from "../assets/hero_image_9.png"
+import HeroImage1 from "../assets/hero/hero_image_1.png"
+import HeroImage2 from "../assets/hero/hero_image_2.png"
+import HeroImage3 from "../assets/hero/hero_image_3.png"
+import HeroImage4 from "../assets/hero/hero_image_4.png"
+import HeroImage5 from "../assets/hero/hero_image_5.png"
+import HeroImage6 from "../assets/hero/hero_image_6.png"
+import HeroImage7 from "../assets/hero/hero_image_7.png"
+import HeroImage8 from "../assets/hero/hero_image_8.png"
+import HeroImage9 from "../assets/hero/hero_image_9.png"
 
 function HeroSection() {
     return (

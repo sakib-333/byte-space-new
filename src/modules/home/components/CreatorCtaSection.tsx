@@ -1,10 +1,10 @@
-import HeroImage3 from "../assets/hero_image_3.png"
-import HeroImage5 from "../assets/hero_image_5.png"
-import HeroImage6 from "../assets/hero_image_6.png"
-import HeroImage10 from "../assets/hero_image_10.png"
-import HeroImage11 from "../assets/hero_image_11.png"
-import HeroImage12 from "../assets/hero_image_12.png"
-import HeroImage13 from "../assets/hero_image_13.png"
+import HeroImage3 from "../assets/hero/hero_image_3.png"
+import HeroImage5 from "../assets/hero/hero_image_5.png"
+import HeroImage6 from "../assets/hero/hero_image_6.png"
+import HeroImage10 from "../assets/hero/hero_image_10.png"
+import HeroImage11 from "../assets/hero/hero_image_11.png"
+import HeroImage12 from "../assets/hero/hero_image_12.png"
+import HeroImage13 from "../assets/hero/hero_image_13.png"
 
 const CreatorCtaSection = () => {
     return (
