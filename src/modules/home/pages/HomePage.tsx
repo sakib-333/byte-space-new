@@ -1,3 +1,4 @@
+import CategorySection from "../components/CategorySection"
 import HeroSection from "../components/HeroSection"
 import PartnerSection from "../components/PartnerSection"
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <div className="">
       <HeroSection />
       <PartnerSection />
+      <CategorySection />
     </div>
   )
 }
