@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const NotFound = () => {
     return (
-        <div className="flex min-h-[500px] items-center justify-center">
+        <div className="flex min-h-125 items-center justify-center">
             <div className="text-center">
                 <h1 className="text-3xl font-semibold">
                     Course not found

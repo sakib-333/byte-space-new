@@ -3,7 +3,7 @@ import HomePage from "@/modules/home/pages/HomePage";
 import AppLayout from "@/shared/components/layout/AppLayout";
 import CoursesPage from "@/modules/courses/pages/CoursesPage";
 import NotFoundPage from "@/modules/not-found/NotFoundPage";
-import CourseDetails from "@/modules/course-details/pages/CourseDetails";
+import CourseDetailsPage from "@/modules/course-details/pages/CourseDetailsPage";
 
 export const router = createBrowserRouter([
     {
@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
 
             {
                 path: "/courses/:courseId",
-                element: <CourseDetails />
+                element: <CourseDetailsPage />
             },
 
             {
