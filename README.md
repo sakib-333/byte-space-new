@@ -17,6 +17,12 @@ Byte Space New is a React single-page application for discovering courses and cr
 
 - Node.js and npm
 
+### Clone repo
+```bash
+git clone git@github.com:sakib-333/byte-space-new.git
+cd byte-space-new
+```
+
 ### Installation
 
 ```bash
