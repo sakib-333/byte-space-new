@@ -6,9 +6,11 @@ import CourseDetailsHero from "../components/CourseDetailsHero"
 import CourseDetailsTabs from "../components/CourseDetailsTabs"
 import CourseEnrollmentCard from "../components/CourseEnrollmentCard"
 import NotFound from "../components/NotFound"
+import usePageTitle from "@/shared/hooks/usePageTitle"
 
 const CourseDetailsPage = () => {
     const { courseId } = useParams()
+    usePageTitle("Course Details")
 
     const course = courses.find(
         (course) => course.id === Number(courseId),

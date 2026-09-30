@@ -1,3 +1,4 @@
+import usePageTitle from "@/shared/hooks/usePageTitle"
 import CategorySection from "../components/CategorySection"
 import CreatorCtaSection from "../components/CreatorCtaSection"
 import GrowthSection from "../components/GrowthSection"
@@ -7,6 +8,8 @@ import PartnerSection from "../components/PartnerSection"
 import TestimonialSection from "../components/TestimonialSection"
 
 const HomePage = () => {
+  usePageTitle("Home")
+  
   return (
     <div className="">
       <HeroSection />

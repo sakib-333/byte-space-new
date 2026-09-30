@@ -3,6 +3,7 @@ import PurePearnStudioAvatar from "../assets/perl_studio_avater.png"
 import DanielCooperAvater from "../assets/brooklyn_simmons.png"
 import SarahMiller from "../assets/cody_fisher.png"
 import AlexMorgan from "../assets/pure_pearl_studio.png"
+import usePageTitle from "@/shared/hooks/usePageTitle"
 
 const creators = [
   {
@@ -56,6 +57,8 @@ const creators = [
 ]
 
 const CreatorsPage = () => {
+  usePageTitle("Creators")
+  
   return (
     <main className="bg-[#003BE2] px-6 pb-20 pt-40">
       <div className="mx-auto max-w-300">

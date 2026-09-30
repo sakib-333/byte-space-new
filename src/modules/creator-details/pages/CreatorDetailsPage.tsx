@@ -5,11 +5,13 @@ import CourseCard from "@/modules/courses/components/CourseCard"
 
 import CreatorDetailsHero from "../components/CreatorDetailsHero"
 import CreatorCourseFilters from "../components/CreatorCourseFilters"
+import usePageTitle from "@/shared/hooks/usePageTitle"
 
 const CreatorDetailsPage = () => {
     const [level, setLevel] = useState("All")
     const [category, setCategory] = useState("All")
     const [sort, setSort] = useState("relevant")
+    usePageTitle("Creator Details")
 
     const creatorCourses = useMemo(
         () => courses.slice(0, 6),

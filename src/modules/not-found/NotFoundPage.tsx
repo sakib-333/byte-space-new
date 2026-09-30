@@ -1,6 +1,9 @@
+import usePageTitle from "@/shared/hooks/usePageTitle"
 import { Link } from "react-router-dom"
 
 const NotFoundPage = () => {
+    usePageTitle("404 Not Found")
+    
     return (
         <main
             className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#003BE2] px-6 py-16"

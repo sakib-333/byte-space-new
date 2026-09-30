@@ -5,6 +5,7 @@ import CoursePagination from "../components/CoursePagination"
 import { courses } from "../data/courses"
 import CourseFilters from "../components/CourseFilters"
 import CoursesHeroSection from "../components/CoursesHeroSection"
+import usePageTitle from "@/shared/hooks/usePageTitle"
 
 const ITEMS_PER_PAGE = 18
 
@@ -14,6 +15,7 @@ const CoursesPage = () => {
   const [level, setLevel] = useState("All")
   const [sort, setSort] = useState("relevant")
   const [currentPage, setCurrentPage] = useState(1)
+  usePageTitle("Courses")
 
   const handleCategoryChange = (value: string) => {
     setCategory(value)

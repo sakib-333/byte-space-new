@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom"
 
 import AuthShowcase from "../components/AuthShowcase"
+import usePageTitle from "@/shared/hooks/usePageTitle"
 
 const RegisterPage = () => {
+    usePageTitle("Register")
+    
     return (
         <main
             className="min-h-screen bg-[#003BE2] px-5 py-8 lg:px-10 lg:py-10"

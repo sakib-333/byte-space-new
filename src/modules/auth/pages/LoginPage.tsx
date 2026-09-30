@@ -3,8 +3,11 @@ import { Link } from "react-router-dom"
 import AuthShowcase from "../components/AuthShowcase"
 import FacebookIcon from "../assets/facebook_icon.svg?react"
 import GoogleIcon from "../assets/google_icon.svg?react"
+import usePageTitle from "@/shared/hooks/usePageTitle"
 
 const LoginPage = () => {
+    usePageTitle("Login")
+    
     return (
         <main
             className="min-h-screen bg-[#003BE2] px-5 py-8 lg:px-10 lg:py-10"
